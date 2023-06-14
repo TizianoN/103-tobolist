@@ -11,7 +11,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f6f8f9;
-  color: #333;
 }
 
 ul {
@@ -24,6 +23,7 @@ ul {
   display: inline-block;
   padding: 5px 10px;
   border-radius: 5px;
+  vertical-align: middle;
   
   text-decoration: none;
   font-size: 1rem;
@@ -72,6 +72,7 @@ header {
   margin: 50px auto;
   background-color: white;
   border-radius: 5px;
+  color: #444;
 }
 
 .card-header {
@@ -80,11 +81,12 @@ header {
 
 .card-header,
 .card-content {
-  padding: 20px;
+  padding: 20px 60px;
 }
 
 .card h2 {
-  margin: 30px 0 15px; 
+  margin: 30px 0 0;
+  font-size: 1.25rem;
 }
 
 li > * {
@@ -98,40 +100,48 @@ li > * {
   font-weight: bold;
   font-size: .6rem;
   background-color: #555;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .label.editorial {
-  background-color :#09a9ed;
+  background-color: #09a9ed;
 }
 
 .label.q1-goals {
-  background-color :#ab5de6;
+  background-color: #ab5de6;
 }
 
 .label.mobile {
-  background-color :#ff9b00;
+  background-color: #ff9b00;
 }
 
 .label.website {
-  background-color :#ec4a9d;
+  background-color: #ec4a9d;
 }
 
 .label.sales {
-  background-color :#a3d116;
+  background-color: #a3d116;
+}
+
+.label.recruiting {
+  background-color: #7ebfa2
 }
 
 .item::before {
   display: inline-block;
-  height: 20px;
-  width: 20px;
+  height: 16px;
+  width: 16px;
   margin: 8px 0;
   
-  line-height: 20px;
+  font-size: .6rem;
+  font-weight: 600;
+
+  line-height: 16px;
   text-align: center;
+  vertical-align: middle;
 
   border: 1px solid currentColor;
-  border-radius: 50px;
+  border-radius: 50%;
 }
 
 .item.item-done::before {
