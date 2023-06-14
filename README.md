@@ -7,7 +7,7 @@ Arial, sans-serif
 ## COLORS 
 
 - page-bg: #f6f8f9
-- primary: #14aaf5
+- primary: #779ef9
 - secondary: #c4cbd0
 - success: #2cc6ab
 - danger: #ff0000
